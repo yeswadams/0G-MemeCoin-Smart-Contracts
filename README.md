@@ -1,30 +1,38 @@
-# 🚀 0G Chain Starter Projects  
+# MyToken - Meme Coin on 0G Chain 
 
-This repository contains two starter projects built on the **0G Chain** — a decentralized, AI-first Layer 1 blockchain purpose-built for scalable inference and next-gen dApps.  
+This repository contains the smart contract and associated files for **MyToken**, a simple meme coin deployed on the Zero Gravity (0G) Chain.
 
-## 📌 Projects Included
-1. **MemeCoin Smart Contract**  
-   - A simple ERC-20 style token deployed on the 0G Chain.  
-   - Perfect as a base for community-driven tokens or experimenting with tokenomics.  
+##  Overview
 
-2. **Chatbot with Inference SDK**  
-   - A decentralized AI chatbot leveraging the **0G Inference SDK**.  
-   - Demonstrates how on-chain AI inference can be integrated into applications for conversational AI.  
+**MyToken** is a basic ERC-20-like token smart contract that allows for the creation, transfer, and balance checking of a fungible token. It was deployed as a proof-of-concept on the **0G Chain**.
 
----
+### Features:
 
-## 🛠️ Tech Stack
-- **Solidity** – for smart contract development.  
-- **0G Chain SDKs** – to interact with 0G’s modular infrastructure.  
-- **Inference SDK** – for integrating decentralized AI models.  
-- **Foundry** – for compiling, deploying, and testing smart contracts.  
-- **Node.js + React (optional)** – for frontend integrations.  
+* **Minting:** Only the contract owner can mint new tokens.
+* **Transfer:** Users can transfer tokens to other addresses.
+* **Balance Check:** Anyone can check the balance of any address.
 
----
 
-## ⚡ Getting Started  
+## 🛠️ Getting Started
 
-### 1. Clone the Repo
-```bash
-git clone https://github.com/yeswadams/0G-starter-projects
-cd 0g-starter-projects
+### Prerequisites
+
+* Node.js (LTS version)
+* npm or yarn
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/MemeCoin-0G.git](https://github.com/your-username/MemeCoin-0G.git)
+    cd MemeCoin-0G
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+### ⚙️ Configuration
+
+You'll need to configure your **HardHat** project to connect to the **0G Chain**. Add the following to your `.env` file, replacing the placeholders with your actual values:
